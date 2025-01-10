@@ -62,11 +62,11 @@ Proyek ini adalah aplikasi berbasis web untuk proses lelang mobil antik. Aplikas
 5. Migrasi database:
    Jalankan perintah berikut untuk membuat tabel yang dibutuhkan:
    ```bash
-   php spark migrate
+   php artisan migrate
    ```
 6. Jalankan server pengembangan:
    ```bash
-   php spark serve
+   php artisan serve
    ```
 7. Buka aplikasi di browser dengan URL:
    ```
